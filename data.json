@@ -1,0 +1,285 @@
+{
+  "format" : 1,
+  "title" : "My Engineering Portfolio",
+  "intro" : "",
+  "cards" : [ {
+    "projectId" : "e6355067-a368-461e-8893-2feaf4af21ca",
+    "caption" : "",
+    "wide" : false
+  } ],
+  "projects" : {
+    "e6355067-a368-461e-8893-2feaf4af21ca" : {
+      "id" : "e6355067-a368-461e-8893-2feaf4af21ca",
+      "title" : "Shooter",
+      "description" : "",
+      "mode" : "ASSEMBLY_GLB",
+      "model" : "models/e6355067-a368-461e-8893-2feaf4af21ca.glb",
+      "thumb" : "thumbs/e6355067-a368-461e-8893-2feaf4af21ca.png",
+      "explodable" : true,
+      "parts" : [ "Hood Side plate CY", "3/8\" Rounded Hex (6.688\" L, 10.25mm OD)", "Hood Neo Mounting Spacer", "NEO 2.0 Brushless Motor", "Polycarb Shroud", "33t Custom HTD 5mm Pulley (0.475\" Wide,‎ *0.498\" Hex Bore)", "Thrifty Cycloidal Housing", "Thrifty Cycloidal Bore", "Shooter Shroud v2", "3/8\" Rounded Hex (6.688\" L, 10.25mm OD)", "Nut Strip (3/8\" Square, 9 Positions, #10-32 Holes, Aligned .5\" Hole Spacing)", "Socket button head cap screw #8-32 x 0.75", "Shooter Shroud v2", "Outside Cycloidal Spacer", "11t Aluminum Pulley (HTD 5mm, 15mm Wide, 8mm SplineXS Bore)", "Top Shooter Plate", "Socket button head cap screw #8-32 x 0.75", "Part 18", "Bottom Shooter Plate", "Hood Clocking Print", "Part 21", "SPARK Flex Brushless Motor Controller", "Fixed Shooter Plate CY", "HTD5 240 Tooth Custom Pulley", "HTD5 240 Tooth Custom Pulley", "Hood Neo Mounting Plate", "Nut Strip (3/8\" Square, 9 Positions, #10-32 Holes, Aligned .5\" Hole Spacing)", "Shooter Shroud v2", "FLYTSparkMaxHolder", "Part 30", "Hood Side Plate Opp", "Part 32", "SPARK Flex Brushless Motor Controller", "3/8\" Rounded Hex (6.688\" L, 10.25mm OD)", "Moving Hood", "50T 5M 9mm Wide Belt", "Fixed Hood v2", "Socket head cap screw #10-32 x 1", "Pulley", "ShaftEnd", "ShaftEnd", "Socket head cap screw #10-32 x 1", "Part 3", "Not Pulley", "Hood Neo Mounting Spacer", "PulleySide", "Simple Side", "1/2\" Rounded Hex (13.75mm) ID Bearing (1.125\" OD, 0.313\" WD, Shielded, Flanged)", "1/2\" Rounded Hex (13.75mm) ID Bearing (1.125\" OD, 0.313\" WD, Shielded, Flanged)", "3\" Solid Urethane Wheel (45A, 1\" Wide, 1/2\" Hex Bore)", "3\" Solid Urethane Wheel (45A, 1\" Wide, 1/2\" Hex Bore)", "Inside Cycloidal Spacer", "Fixed Shooter Plate Opp", "HTD5 240 Tooth Custom Pulley", "1/2\" Hex Bore Bearing (1.125\" OD, 0.313\" WD, Shielded, Flanged)", "1/2\" Rounded Hex (7.125\" L, 13.75mm OD)", "Socket button head cap screw #8-32 x 0.75", "Socket button head cap screw #8-32 x 0.75" ],
+      "triangles" : 752660,
+      "radius" : 0.20168040791125297,
+      "document" : "# Shooter - Overview [[reset]]\nA turret-mounted flywheel shooter for 6 in diameter balls, designed to fire at up to 18 balls per second. Two motors drive the flywheels and a third motor drives the adjustable hood, which pivots on the same axis as the flywheel. Start with the [[reset|assembled view]], or [[animate:0,1,2500|watch it come apart]].\n\n[[preset:Preset 1|Animate me]]\n\n# Requirements [[explode:0]]\n- Ball: 6 in diameter.\n- Fire rate: 18 balls per second, so the flywheels must recover speed between shots almost instantly.\n- Adjustable shot angle without moving the flywheel.\n- Compact enough to rotate on a turret ring.\n\n# Flywheels [[explode:0.5]]\nTwo motors power the flywheels. Splitting the load across two motors gives the torque to hold wheel speed at the full 18 balls per second instead of sagging after the first few shots. [[highlight:1,2|Highlight the first two parts]] or [[all|clear the highlight]].\n\n# Hood [[explode:0.8]]\nOne motor drives the hood. The hood rotates about the flywheel axis, so the gap between the hood and the wheel stays constant (ball compression never changes) while the exit angle sweeps. [[isolate:1,2,3|Isolate a few parts]] then [[all|show everything]] again.\n\n# Turret ring [[preset:Preset 1]]\nThe whole shooter rides on a geared ring so it can aim independently of the drivetrain. This heading plays the saved preset \"Preset 1\"; you can also [[preset:Preset 2|play Preset 2]].\n\n# Results [[reset]]\nReplace this section with test data: measured fire rate, wheel speed recovery time, and shot consistency at each hood angle.\n",
+      "notes" : {
+        "34" : "3d printed"
+      },
+      "settings" : {
+        "mouse" : "ONSHAPE",
+        "invertY" : "true",
+        "invertX" : "true",
+        "background" : "#1e2026",
+        "anchor" : "-1",
+        "stages" : "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,2,2,1,1,1,1,1,1,1",
+        "palette" : "false",
+        "up" : "Z down",
+        "opacity.4" : "0.31893382352941174",
+        "stageDirections" : "RADIAL,LINEAR_X,DEFAULT,DEFAULT,DEFAULT",
+        "direction" : "RADIAL"
+      },
+      "joints" : [ {
+        "name" : "Joint 1",
+        "type" : "ROTATE",
+        "axis" : "X",
+        "pivotPart" : 55,
+        "parts" : [ 30, 0, 34 ],
+        "min" : -40.0,
+        "max" : 49.0,
+        "home" : 0.0,
+        "continuous" : false
+      }, {
+        "name" : "Joint 2",
+        "type" : "SLIDE",
+        "axis" : "X",
+        "pivotPart" : -1,
+        "parts" : [ 15, 10, 26 ],
+        "min" : 0.0,
+        "max" : 0.1,
+        "home" : 0.0,
+        "continuous" : false
+      }, {
+        "name" : "Joint 3",
+        "type" : "ROTATE",
+        "axis" : "Y",
+        "pivotPart" : -1,
+        "parts" : [ 0, 30, 34, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 19, 20, 21, 22, 24, 25, 26, 28, 29, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54, 55, 56, 57, 18, 15, 23, 27, 53 ],
+        "min" : 0.0,
+        "max" : 720.0,
+        "home" : 0.0,
+        "continuous" : false
+      } ],
+      "presets" : [ {
+        "name" : "Preset 1",
+        "anchor" : -1,
+        "direction" : "RADIAL",
+        "stages" : [ 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1 ],
+        "stageDirections" : [ "RADIAL", "LINEAR_Y", "LINEAR_X", "DEFAULT", "DEFAULT" ],
+        "stageRanges" : [ 0.3871428571428572, 0.3871428571428572, 0.08857142857142858, 0.01, 1.0 ],
+        "hidden" : [ ],
+        "highlighted" : [ ],
+        "startView" : null,
+        "startSeconds" : 1.0,
+        "timeline" : [ {
+          "type" : "JOINT",
+          "stage" : 1,
+          "joint" : "Joint 1",
+          "from" : -45.0,
+          "to" : 49.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "STAGE",
+          "stage" : 1,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : true
+        }, {
+          "type" : "CAMERA",
+          "stage" : 1,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : {
+            "qx" : 0.2029121474800687,
+            "qy" : 0.32894776955052524,
+            "qz" : 0.07770324455782301,
+            "qw" : 0.9190115511232427,
+            "panX" : 0.02408816830875931,
+            "panY" : 0.06525795937984337,
+            "distance" : 0.8000848419878064
+          },
+          "seconds" : 1.5,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "STAGE",
+          "stage" : 4,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "STAGE",
+          "stage" : 2,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "CAMERA",
+          "stage" : 1,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : {
+            "qx" : 0.06860900169898923,
+            "qy" : 0.923726166652913,
+            "qz" : 0.23936990152990195,
+            "qw" : 0.2910752895182759,
+            "panX" : 0.0096603721499114,
+            "panY" : 0.038938057617588326,
+            "distance" : 0.8735301624168177
+          },
+          "seconds" : 1.5,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "STAGE",
+          "stage" : 3,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "JOINT",
+          "stage" : 1,
+          "joint" : "Joint 2",
+          "from" : 0.0,
+          "to" : 0.1,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "JOINT",
+          "stage" : 1,
+          "joint" : "Joint 3",
+          "from" : 0.0,
+          "to" : 720.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.16,
+          "weight" : 1.0,
+          "withPrevious" : true
+        } ],
+        "jointMoves" : [ ],
+        "explodeFrom" : 0.0,
+        "explodeTo" : 1.0,
+        "durationMs" : 8800
+      }, {
+        "name" : "Preset 2",
+        "anchor" : -1,
+        "direction" : "RADIAL",
+        "stages" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+        "stageDirections" : [ "DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT" ],
+        "stageRanges" : [ ],
+        "hidden" : [ ],
+        "highlighted" : [ ],
+        "startView" : null,
+        "startSeconds" : 1.0,
+        "timeline" : [ {
+          "type" : "STAGE",
+          "stage" : 1,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 1.5,
+          "weight" : 1.0,
+          "withPrevious" : false
+        } ],
+        "jointMoves" : [ ],
+        "explodeFrom" : 0.0,
+        "explodeTo" : 0.2420955882352941,
+        "durationMs" : 1500
+      }, {
+        "name" : "Preset 3",
+        "anchor" : -1,
+        "direction" : "RADIAL",
+        "stages" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1 ],
+        "stageDirections" : [ "RADIAL", "DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT" ],
+        "stageRanges" : [ ],
+        "hidden" : [ ],
+        "highlighted" : [ ],
+        "startView" : null,
+        "startSeconds" : 1.0,
+        "timeline" : [ {
+          "type" : "STAGE",
+          "stage" : 1,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 0.4,
+          "weight" : 1.0,
+          "withPrevious" : false
+        }, {
+          "type" : "STAGE",
+          "stage" : 2,
+          "joint" : "",
+          "from" : 0.0,
+          "to" : 90.0,
+          "relative" : true,
+          "view" : null,
+          "seconds" : 0.4,
+          "weight" : 1.0,
+          "withPrevious" : false
+        } ],
+        "jointMoves" : [ ],
+        "explodeFrom" : 0.0,
+        "explodeTo" : 0.5459558823529412,
+        "durationMs" : 808
+      } ],
+      "cameraViews" : {
+        "Preset 1/2" : {
+          "dir" : [ 0.5731, 0.4241, -0.7012 ],
+          "az" : 140.743,
+          "el" : 25.0923,
+          "distance" : 0.8001,
+          "pan" : [ 0.0241, -0.0653 ]
+        },
+        "Preset 1/5" : {
+          "dir" : [ 0.5049, 0.4822, 0.716 ],
+          "az" : 35.1921,
+          "el" : 28.8269,
+          "distance" : 0.8735,
+          "pan" : [ 0.0097, -0.0389 ]
+        }
+      }
+    }
+  }
+}
